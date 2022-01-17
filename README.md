@@ -12,7 +12,7 @@ e5:00.0 Network controller [0280]: Broadcom Inc. and subsidiaries BCM4364 802.11
 jeff@mbp:~$
 ```
 
-Manually placed Broadcom firmware. __Make sure you backup `/lib/firmwire/brcm`__
+Manually placed Broadcom firmware. __Make sure you backup `/lib/firmwire/brcm`__ if existing
 
 ```sh
 ## Backup `/lib/firmware/brcm` if existing
@@ -21,3 +21,13 @@ cd /lib/firmware/; sudo tar -xzvf brcm.tar.gz
 ```
 
 <img src="./images/20220116_ubuntu2004_mbp_t2.png">
+
+I'm using the latest kernel up to date of writing this document
+
+```sh
+Linux mbp 5.16.0-t2 #2 SMP PREEMPT Wed Jan 12 11:25:28 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+```
+
+> Reference
+> https://github.com/marcosfad/mbp-ubuntu
+> https://github.com/AdityaGarg8/T2-Ubuntu-Kernel/

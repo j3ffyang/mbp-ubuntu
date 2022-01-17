@@ -21,6 +21,12 @@ wget https://github.com/j3ffyang/mbp-ubuntu/blob/master/files/brcm.tar.gz
 cd /lib/firmware/; sudo tar -xzvf brcm.tar.gz
 ```
 
+Reload firmware
+
+```sh
+sudo modprobe -r brcmfmac && sudo modprobe brcmfmac
+```
+
 <img src="./images/20220116_ubuntu2004_mbp_t2.png">
 
 The kernel running when writing this document

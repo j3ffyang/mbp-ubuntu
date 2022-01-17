@@ -29,5 +29,5 @@ Linux mbp 5.16.0-t2 #2 SMP PREEMPT Wed Jan 12 11:25:28 UTC 2022 x86_64 x86_64 x8
 ```
 
 Reference
-	- https://github.com/marcosfad/mbp-ubuntu
-	- https://github.com/AdityaGarg8/T2-Ubuntu-Kernel/
+- https://github.com/marcosfad/mbp-ubuntu
+- https://github.com/AdityaGarg8/T2-Ubuntu-Kernel/

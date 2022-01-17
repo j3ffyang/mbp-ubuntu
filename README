@@ -13,6 +13,10 @@ jeff@mbp:~$
 
 I manually placed Broadcom firmware
 
-
+```sh
+## Backup `/lib/firmware/brcm` if existing
+wget https://github.com/j3ffyang/mbp-ubuntu/blob/master/files/brcm.tar.gz
+cd /lib/firmware/; sudo tar -xzvf brcm.tar.gz
+```
 
 <img src="./images/20220116_ubuntu2004_mbp_t2.png">

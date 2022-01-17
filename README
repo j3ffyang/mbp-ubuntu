@@ -1,4 +1,4 @@
-# Install Ubuntu 20.04 on MacBook Pro 16,2 with Broadcom 4364 Chipset
+Install Ubuntu 20.04 on MacBook Pro 16,2 with Broadcom 4364 Chipset
 
 My objective is simple: install Ubuntu 20.04 on MacBook 16,2. It's known this model has T2 security chip. I tried many methods to enable Broadcom 4364 for wireless, including instruction from https://wiki.t2linux.org/guides/wifi/, but no luck.
 

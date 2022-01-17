@@ -67,6 +67,12 @@ Jan 17 19:35:00 mbp kernel: brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM4364/4
 Jan 17 19:35:01 mbp NetworkManager[802]: <info>  [1642419301.1008] rfkill1: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:1c.0/0000:e5:00.0/ieee80211/phy0/rfkill1) (driver brcmfmac)
 ```
 
+#### What does work
+
+- Audio amplification
+- Bluetooth
+- Touchbar (partial)
+
 #### What doesn't work yet Ubuntu 20.04 on MacBookPro 16,2
 
 problem | workaround

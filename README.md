@@ -84,6 +84,7 @@ keyboard backlight | don't use it
 headphone 3.5mm jack | connect through a type-C adapter
 
 #### Reference
+- https://wiki.t2linux.org/guides/wifi/
 - https://github.com/marcosfad/mbp-ubuntu
 - https://github.com/AdityaGarg8/T2-Ubuntu-Kernel/
 - https://github.com/aunali1/linux-mbp-arch

@@ -11,7 +11,7 @@ e5:00.0 Network controller [0280]: Broadcom Inc. and subsidiaries BCM4364 802.11
 jeff@mbp:~$
 ```
 
-I manually placed Broadcom firmware
+Manually placed Broadcom firmware. __Make sure you backup `/lib/firmwire/brcm`__
 
 ```sh
 ## Backup `/lib/firmware/brcm` if existing

@@ -1,8 +1,8 @@
-## Install Ubuntu 20.04 on MacBook Pro 16,2 with Broadcom 4364 Chipset
+# Install Ubuntu 20.04 on MacBook Pro 16,2 with Broadcom 4364 Chipset
 
-My objective is simple: install Ubuntu 20.04 on MacBook 16,2. It's known this model has T2 security chip. I tried many methods to enable Broadcom 4364 for wireless, including instruction from https://wiki.t2linux.org/guides/wifi/, but no luck.
+My objective is simple: install Ubuntu 20.04 on __MacBook 16,2__. It's known this model has T2 security chip. I tried many methods to enable Broadcom 4364 for wireless, including instruction from https://wiki.t2linux.org/guides/wifi/, but no luck.
 
-Here's my hardware
+#### My Hardware > `[14e4:4464] (rev 04)`
 
 ```sh
 jeff@mbp:~$ lspci -vvnn | grep -i network
@@ -12,6 +12,7 @@ e5:00.0 Network controller [0280]: Broadcom Inc. and subsidiaries BCM4364 802.11
 jeff@mbp:~$
 ```
 
+#### Broadcom Firmware
 Manually placed Broadcom firmware. __Make sure you backup `/lib/firmwire/brcm`__ if existing
 
 ```sh
@@ -28,7 +29,7 @@ The kernel running when writing this document
 Linux mbp 5.16.0-t2 #2 SMP PREEMPT Wed Jan 12 11:25:28 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
 ```
 
-By the way, some additional information
+#### By the way, some additional information
 
 ```sh
 jeff@mbp:~$ sudo dmesg | grep brcmfmac
@@ -66,7 +67,14 @@ Jan 17 19:35:00 mbp kernel: brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM4364/4
 Jan 17 19:35:01 mbp NetworkManager[802]: <info>  [1642419301.1008] rfkill1: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:1c.0/0000:e5:00.0/ieee80211/phy0/rfkill1) (driver brcmfmac)
 ```
 
-Reference
+#### What doesn't work yet Ubuntu 20.04 on MacBookPro 16,2
+
+problem | workaround
+-- | --  
+keyboard backlight | don't use it
+headphone 3.5mm jack | connect through a type-C adapter
+
+#### Reference
 - https://github.com/marcosfad/mbp-ubuntu
 - https://github.com/AdityaGarg8/T2-Ubuntu-Kernel/
 - https://github.com/aunali1/linux-mbp-arch

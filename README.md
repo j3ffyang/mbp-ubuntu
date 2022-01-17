@@ -6,7 +6,8 @@ Here's my hardware
 
 ```sh
 jeff@mbp:~$ lspci -vvnn | grep -i network
-e5:00.0 Network controller [0280]: Broadcom Inc. and subsidiaries BCM4364 802.11ac Wireless Network Adapter [14e4:4464] (rev 04)
+e5:00.0 Network controller [0280]: Broadcom Inc. and subsidiaries BCM4364 802.11ac
+  Wireless Network Adapter [14e4:4464] (rev 04)
 	Subsystem: Apple Inc. BCM4364 802.11ac Wireless Network Adapter [106b:07bf]
 jeff@mbp:~$
 ```
